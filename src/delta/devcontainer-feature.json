@@ -5,11 +5,11 @@
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/delta",
   "description": "A syntax-highlighting pager for git, diff, and grep output.",
   "options": {
-      "version": {
-          "type": "string",
-          "proposals": ["0.12.1"],
-          "default": "0.12.1",
-          "description": "Select the version of Delta to install."
-      }
+    "version": {
+      "type": "string",
+      "proposals": ["0.12.1"],
+      "default": "0.12.1",
+      "description": "Select the version of Delta to install."
+    }
   }
 }

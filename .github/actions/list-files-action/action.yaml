@@ -1,15 +1,15 @@
-name: 'List file names'
-description: 'Get a json list of the files listed in the specified folder'
+name: "List file names"
+description: "Get a json list of the files listed in the specified folder"
 inputs:
   path:
-    description: 'Folder to list'
+    description: "Folder to list"
     required: true
 outputs:
   filenames: # id of output
-    description: 'A JSON formatted list of filenames'
+    description: "A JSON formatted list of filenames"
     value: ${{ steps.set-filenames.outputs.filenames }}
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - run: sudo apt update && sudo apt install tree jq -y
       shell: bash

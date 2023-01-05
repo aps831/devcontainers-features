@@ -5,11 +5,11 @@
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/gitmkver",
   "description": "Automatic Semantic Versioning for git based software development.",
   "options": {
-      "version": {
-          "type": "string",
-          "proposals": ["latest"],
-          "default": "latest",
-          "description": "Select the version of git-mkver to install."
-      }
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Select the version of git-mkver to install."
+    }
   }
 }

@@ -1,19 +1,19 @@
-name: 'List file names'
-description: 'Get a json list of the files listed in the specified folder'
+name: "List file names"
+description: "Get a json list of the files listed in the specified folder"
 inputs:
   path:
-    description: 'Folder to list'
+    description: "Folder to list"
     required: true
 outputs:
   all_features: # id of output
-    description: 'A JSON formatted list of generated and manually crafted features'
+    description: "A JSON formatted list of generated and manually crafted features"
     value: ${{ steps.set-filenames.outputs.all_features }}
   generated_features: # id of output
-    description: 'A JSON formatted list of generated features'
+    description: "A JSON formatted list of generated features"
     value: ${{ steps.set-filenames.outputs.generated_features }}
 
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - run: sudo apt update && sudo apt install tree jq -y
       shell: bash
@@ -21,7 +21,7 @@ runs:
       shell: bash
       run: |
         cd ${{ inputs.path }}
-        
+
         sudo tree -J  ./feature_specs | sudo jq -c '.[0].contents | map(.name) | map(sub(".yaml"; ""))' > specs.json
         sudo tree -J -d  ./src | sudo jq -c '.[0].contents | map(.name)' > folders.json
 

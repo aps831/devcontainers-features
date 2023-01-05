@@ -5,11 +5,11 @@
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/gitleaks",
   "description": "Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos.",
   "options": {
-      "version": {
-          "type": "string",
-          "proposals": ["latest"],
-          "default": "latest",
-          "description": "Select the version of Gitleaks to install."
-      }
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Select the version of Gitleaks to install."
+    }
   }
 }

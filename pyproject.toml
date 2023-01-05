@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Andrew Spratley <aps831@yahoo.co.uk>"]
 readme = "README.md"
-packages = [{include = "devcontainers_features"}]
+packages = [{ include = "devcontainers_features" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

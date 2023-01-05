@@ -5,11 +5,11 @@
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/nancy",
   "description": "Nancy is a tool to check for vulnerabilities in your Golang dependencies.",
   "options": {
-      "version": {
-          "type": "string",
-          "proposals": ["latest"],
-          "default": "latest",
-          "description": "Select the version of Nancy to install."
-      }
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Select the version of Nancy to install."
+    }
   }
 }
