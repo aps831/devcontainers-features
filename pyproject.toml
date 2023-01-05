@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "devcontainers-features"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Spratley <aps831@yahoo.co.uk>"]
+readme = "README.md"
+packages = [{include = "devcontainers_features"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+devcontainer-contrib = ">=0.0.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
