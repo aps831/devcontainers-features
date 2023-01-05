@@ -16,6 +16,15 @@ lint:
     - git-diff-check
     - taplo@0.7.0
     - gitleaks@8.15.2
+  ignore:
+    - linters: [ALL]
+      paths:
+        - src/commitizen/*
+        - src/semgrep/*
+        - src/trunk/*
+        - test/commitizen/*
+        - test/semgrep/*
+        - test/trunk/*
 runtimes:
   enabled:
     - go@1.18.3
