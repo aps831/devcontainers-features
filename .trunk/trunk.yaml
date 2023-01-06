@@ -37,6 +37,8 @@ runtimes:
     - node@18.12.1
 actions:
   enabled:
+    - commit-branch
+    - commitizen
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
     - trunk-announce
