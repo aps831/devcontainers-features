@@ -1,0 +1,20 @@
+{
+    "id": "task-asdf",
+    "version": "1.0.0",
+    "name": "Task (via asdf)",
+    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/task-asdf",
+    "description": "Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version of Task to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1"
+    ]
+}
