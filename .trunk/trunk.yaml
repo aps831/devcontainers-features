@@ -27,9 +27,11 @@ lint:
       paths:
         - src/commitizen/*
         - src/semgrep/*
+        - src/semgrep-asdf/*
         - src/trunk/*
         - test/commitizen/*
         - test/semgrep/*
+        - test/semgrep-asdf/*
         - test/trunk/*
 runtimes:
   enabled:

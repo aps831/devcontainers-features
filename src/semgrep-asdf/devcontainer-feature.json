@@ -1,0 +1,20 @@
+{
+    "id": "semgrep-asdf",
+    "version": "1.0.0",
+    "name": "Semgpre (via asdf)",
+    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/semgrep-asdf",
+    "description": "Semgrep is a fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version of Semgrep to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1"
+    ]
+}
