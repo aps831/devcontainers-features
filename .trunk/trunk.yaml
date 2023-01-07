@@ -28,10 +28,14 @@ lint:
         - src/commitizen/*
         - src/semgrep/*
         - src/semgrep-asdf/*
+        - src/task-asdf/*
+        - src/trivy-asdf/*
         - src/trunk/*
         - test/commitizen/*
         - test/semgrep/*
         - test/semgrep-asdf/*
+        - test/task-asdf/*
+        - test/trivy-asdf/*
         - test/trunk/*
 runtimes:
   enabled:
