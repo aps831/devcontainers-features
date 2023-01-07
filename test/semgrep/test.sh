@@ -6,6 +6,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "semgrep --version" semgrep --version
+check "semgrep scan --version" semgrep scan --version
 
 reportResults

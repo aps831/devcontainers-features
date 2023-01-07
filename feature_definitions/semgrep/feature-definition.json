@@ -25,5 +25,5 @@
     }
   ],
   "install_command": "echo 'Done!'",
-  "test_command": "semgrep --version"
+  "test_command": "semgrep scan --version"
 }
