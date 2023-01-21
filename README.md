@@ -14,10 +14,10 @@ poetry run devcontainer-contrib features generate "feature_definitions/<feature_
 
 ## Test
 
-Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/devcontainers/base:debian`.
+Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/vscode/devcontainers/base:debian-11`.
 
 To test an individual feature use:
 
 ```bash
-npx -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/devcontainers/base:debian"
+npx -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/vscode/devcontainers/base:debian-11"
 ```

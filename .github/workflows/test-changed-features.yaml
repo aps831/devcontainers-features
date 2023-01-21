@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         features: ${{ fromJson( needs.find-feature.outputs.changed_features )}}
-        baseImage: ["mcr.microsoft.com/devcontainers/base:debian"]
+        baseImage: ["mcr.microsoft.com/vscode/devcontainers/base:debian-11"]
 
     steps:
       - uses: actions/checkout@v3

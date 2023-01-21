@@ -25,7 +25,7 @@ jobs:
     strategy:
       matrix:
         features: ${{ fromJson(needs.find-features.outputs.folders )}}
-        baseImage: ["mcr.microsoft.com/devcontainers/base:debian"]
+        baseImage: ["mcr.microsoft.com/vscode/devcontainers/base:debian-11"]
     steps:
       - uses: actions/checkout@v3
 
