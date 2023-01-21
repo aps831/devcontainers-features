@@ -1,0 +1,29 @@
+{
+  "id": "commitizen-tools",
+  "version": "1.0.0",
+  "name": "Commitizen Tools (via pipx)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/commitizen",
+  "description": "Commitizen is a tool designed for teams. Its main purpose is to define a standard way of committing rules and communicating it.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version of Commitizen to install.",
+      "proposals": ["latest"],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.1",
+    "ghcr.io/devcontainers/features/python:1.0.18"
+  ],
+  "dependencies": [
+    {
+      "feature": "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.1",
+      "options": {
+        "package": "commitizen"
+      }
+    }
+  ],
+  "install_command": "echo 'Done!'",
+  "test_command": "cz version"
+}

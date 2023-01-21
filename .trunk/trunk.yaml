@@ -26,12 +26,14 @@ lint:
     - linters: [ALL]
       paths:
         - src/commitizen/*
+        - src/commitizen-tools/*
         - src/semgrep/*
         - src/semgrep-asdf/*
         - src/task-asdf/*
         - src/trivy-asdf/*
         - src/trunk/*
         - test/commitizen/*
+        - test/commitizen-tools/*
         - test/semgrep/*
         - test/semgrep-asdf/*
         - test/task-asdf/*
