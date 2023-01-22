@@ -1,5 +1,4 @@
 
-
 # Nancy (via Github Releases) (nancy)
 
 Nancy is a tool to check for vulnerabilities in your Golang dependencies.

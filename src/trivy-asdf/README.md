@@ -1,5 +1,4 @@
 
-
 # Trivy (via asdf) (trivy-asdf)
 
 Trivy is a comprehensive and versatile security scanner.

@@ -1,5 +1,4 @@
 
-
 # git-mkver (via Github Releases) (gitmkver)
 
 Automatic Semantic Versioning for git based software development.

@@ -1,5 +1,5 @@
 
-# Commitizen (via pipx) (commitizen)
+# Commitizen Tools (via pipx) (commitizen-tools)
 
 Commitizen is a tool designed for teams. Its main purpose is to define a standard way of committing rules and communicating it.
 
@@ -7,7 +7,7 @@ Commitizen is a tool designed for teams. Its main purpose is to define a standar
 
 ```json
 "features": {
-    "ghcr.io/aps831/devcontainers-features/commitizen:1": {}
+    "ghcr.io/aps831/devcontainers-features/commitizen-tools:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Commitizen is a tool designed for teams. Its main purpose is to define a standar
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/commitizen/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/commitizen-tools/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

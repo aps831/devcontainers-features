@@ -1,5 +1,4 @@
 
-
 # Semgrep (via pipx) (semgrep)
 
 Semgrep is a fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time.

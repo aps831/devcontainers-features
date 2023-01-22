@@ -1,5 +1,4 @@
 
-
 # Trunk CLI (via npm) (trunk)
 
 Use Trunk for checking, testing, merging, and monitoring your code.
