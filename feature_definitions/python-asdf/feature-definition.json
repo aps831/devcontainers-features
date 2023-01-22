@@ -1,0 +1,27 @@
+{
+  "id": "python-asdf",
+  "version": "1.0.0",
+  "name": "Python (via asdf)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/python-asdf",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version of Python to install.",
+      "proposals": ["latest"],
+      "type": "string"
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1"],
+  "dependencies": [
+    {
+      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1",
+      "options": {
+        "plugin": "python",
+        "version": "$options.version"
+      }
+    }
+  ],
+  "install_command": "echo 'Done!'",
+  "test_command": "python3 --version"
+}

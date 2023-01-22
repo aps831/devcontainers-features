@@ -27,6 +27,7 @@ lint:
       paths:
         - src/commitizen/*
         - src/commitizen-tools/*
+        - src/python-asdf/*
         - src/semgrep/*
         - src/semgrep-asdf/*
         - src/task-asdf/*
@@ -34,6 +35,7 @@ lint:
         - src/trunk/*
         - test/commitizen/*
         - test/commitizen-tools/*
+        - test/python-asdf/*
         - test/semgrep/*
         - test/semgrep-asdf/*
         - test/task-asdf/*
