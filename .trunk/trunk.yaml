@@ -27,6 +27,7 @@ lint:
       paths:
         - src/commitizen/*
         - src/commitizen-tools/*
+        - src/golang-asdf/*
         - src/python-asdf/*
         - src/semgrep/*
         - src/semgrep-asdf/*
@@ -35,6 +36,7 @@ lint:
         - src/trunk/*
         - test/commitizen/*
         - test/commitizen-tools/*
+        - test/golang-asdf/*
         - test/python-asdf/*
         - test/semgrep/*
         - test/semgrep-asdf/*
