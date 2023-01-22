@@ -1,0 +1,21 @@
+{
+    "id": "poetry-asdf",
+    "version": "1.0.0",
+    "name": "Poetry (via asdf)",
+    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/poetry-asdf",
+    "description": "",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version of Poetry to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1",
+        "ghcr.io/aps831/devcontainers-features/python-asdf:1.0.1"
+    ]
+}
