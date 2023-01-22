@@ -31,6 +31,7 @@ lint:
         - src/nodejs-asdf/*
         - src/poetry-asdf/*
         - src/python-asdf/*
+        - src/safety/*
         - src/semgrep/*
         - src/semgrep-asdf/*
         - src/task-asdf/*
@@ -42,6 +43,7 @@ lint:
         - test/nodejs-asdf/*
         - test/poetry-asdf/*
         - test/python-asdf/*
+        - test/safety/*
         - test/semgrep/*
         - test/semgrep-asdf/*
         - test/task-asdf/*
