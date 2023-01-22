@@ -28,6 +28,7 @@ lint:
         - src/commitizen/*
         - src/commitizen-tools/*
         - src/golang-asdf/*
+        - src/nodejs-asdf/*
         - src/python-asdf/*
         - src/semgrep/*
         - src/semgrep-asdf/*
@@ -37,6 +38,7 @@ lint:
         - test/commitizen/*
         - test/commitizen-tools/*
         - test/golang-asdf/*
+        - test/nodejs-asdf/*
         - test/python-asdf/*
         - test/semgrep/*
         - test/semgrep-asdf/*
