@@ -9,10 +9,10 @@ jobs:
     if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # pin@v3
 
       - name: "Publish features"
-        uses: devcontainers/action@v1
+        uses: devcontainers/action@3f8cae6bc8e5ef6d58062d7c5cc471d81e8ded05 # pin@v1
         with:
           publish-features: "true"
           base-path-to-features: "./src"
