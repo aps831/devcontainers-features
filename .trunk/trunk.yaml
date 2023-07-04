@@ -35,7 +35,6 @@ lint:
         - src/python-asdf/*
         - src/safety/*
         - src/semgrep/*
-        - src/semgrep-asdf/*
         - src/task-asdf/*
         - src/trivy-asdf/*
         - src/trunk/*
@@ -47,7 +46,6 @@ lint:
         - test/python-asdf/*
         - test/safety/*
         - test/semgrep/*
-        - test/semgrep-asdf/*
         - test/task-asdf/*
         - test/trivy-asdf/*
         - test/trunk/*
