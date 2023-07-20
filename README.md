@@ -19,5 +19,5 @@ Before any tests, ensure that the latest base devcontainers image is pulled: `do
 To test an individual feature use:
 
 ```bash
-npx -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/vscode/devcontainers/base:debian-11"
+npx -y -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/vscode/devcontainers/base:debian-11"
 ```
