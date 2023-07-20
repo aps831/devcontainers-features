@@ -30,6 +30,7 @@ lint:
         - src/commitizen/*
         - src/commitizen-tools/*
         - src/golang-asdf/*
+        - src/java-asdf/*
         - src/nodejs-asdf/*
         - src/poetry-asdf/*
         - src/python-asdf/*
@@ -41,6 +42,7 @@ lint:
         - test/commitizen/*
         - test/commitizen-tools/*
         - test/golang-asdf/*
+        - test/java-asdf/*
         - test/nodejs-asdf/*
         - test/poetry-asdf/*
         - test/python-asdf/*
