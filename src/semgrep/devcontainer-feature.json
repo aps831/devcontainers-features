@@ -1,6 +1,6 @@
 {
     "id": "semgrep",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Semgrep (via pipx)",
     "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/semgrep",
     "description": "Semgrep is a fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time.",
@@ -15,6 +15,6 @@
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.1"
+        "ghcr.io/devcontainers-contrib/features/pipx-package"
     ]
 }

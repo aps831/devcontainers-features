@@ -1,6 +1,6 @@
 {
     "id": "trivy-asdf",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Trivy (via asdf)",
     "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/trivy-asdf",
     "description": "Trivy is a comprehensive and versatile security scanner.",
@@ -15,6 +15,6 @@
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1"
+        "ghcr.io/devcontainers-contrib/features/asdf-package"
     ]
 }

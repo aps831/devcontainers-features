@@ -1,6 +1,6 @@
 {
   "id": "nodejs-asdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Nodejs (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/nodejs-asdf",
   "description": "Node.js is an open-source, cross-platform JavaScript runtime environment.",
@@ -12,10 +12,10 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1"],
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package"],
   "dependencies": [
     {
-      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.1",
+      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package",
       "options": {
         "plugin": "nodejs",
         "version": "$options.version"
