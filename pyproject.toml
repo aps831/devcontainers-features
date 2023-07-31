@@ -8,7 +8,7 @@ packages = [{ include = "devcontainers_features" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-devcontainer-contrib = ">=0.0.11"
+devcontainer-contrib = { extras = ["generate"], version = "^0.0.26" }
 
 [build-system]
 requires = ["poetry-core"]
