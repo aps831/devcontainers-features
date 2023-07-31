@@ -1,6 +1,6 @@
 {
   "id": "trunk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Trunk CLI (via npm)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/trunk",
   "description": "Use Trunk for checking, testing, merging, and monitoring your code.",
@@ -12,10 +12,10 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/npm-package"],
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/npm-package:1"],
   "dependencies": [
     {
-      "feature": "ghcr.io/devcontainers-contrib/features/npm-package",
+      "feature": "ghcr.io/devcontainers-contrib/features/npm-package:1",
       "options": {
         "package": "@trunkio/launcher",
         "version": "$options.version"
@@ -23,5 +23,12 @@
     }
   ],
   "install_command": "echo 'Done!'",
-  "test_command": "trunk --version"
+  "test_scenarios": [
+    {
+      "name": "test_defaults",
+      "image": "mcr.microsoft.com/devcontainers/base:debian",
+      "test_commands": ["trunk --version"],
+      "options": {}
+    }
+  ]
 }

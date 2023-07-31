@@ -1,6 +1,6 @@
 {
   "id": "trivy-asdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Trivy (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/trivy-asdf",
   "description": "Trivy is a comprehensive and versatile security scanner.",
@@ -12,10 +12,10 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package"],
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package:1"],
   "dependencies": [
     {
-      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package",
+      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1",
       "options": {
         "plugin": "trivy",
         "version": "$options.version"
@@ -23,5 +23,12 @@
     }
   ],
   "install_command": "echo 'Done!'",
-  "test_command": "trivy --version"
+  "test_scenarios": [
+    {
+      "name": "test_defaults",
+      "image": "mcr.microsoft.com/devcontainers/base:debian",
+      "test_commands": ["trivy --version"],
+      "options": {}
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "poetry-asdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Poetry (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/poetry-asdf",
   "description": "",
@@ -13,18 +13,18 @@
     }
   },
   "installsAfter": [
-    "ghcr.io/devcontainers-contrib/features/asdf-package",
-    "ghcr.io/aps831/devcontainers-features/python-asdf"
+    "ghcr.io/devcontainers-contrib/features/asdf-package:1",
+    "ghcr.io/aps831/devcontainers-features/python-asdf:1"
   ],
   "dependencies": [
     {
-      "feature": "ghcr.io/aps831/devcontainers-features/python-asdf",
+      "feature": "ghcr.io/aps831/devcontainers-features/python-asdf:1",
       "options": {
         "version": "latest"
       }
     },
     {
-      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package",
+      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1",
       "options": {
         "plugin": "poetry",
         "version": "$options.version"
@@ -32,5 +32,12 @@
     }
   ],
   "install_command": "echo 'Done!'",
-  "test_command": "poetry --version"
+  "test_scenarios": [
+    {
+      "name": "test_defaults",
+      "image": "mcr.microsoft.com/devcontainers/base:debian",
+      "test_commands": ["poetry --version"],
+      "options": {}
+    }
+  ]
 }

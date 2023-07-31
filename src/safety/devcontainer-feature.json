@@ -1,6 +1,6 @@
 {
     "id": "safety",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Safety (via pipx)",
     "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/safety",
     "description": "Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected",
@@ -15,6 +15,6 @@
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/pipx-package"
+        "ghcr.io/devcontainers-contrib/features/pipx-package:1"
     ]
 }

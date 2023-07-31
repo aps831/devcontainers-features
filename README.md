@@ -9,15 +9,15 @@ This repository is based on `https://github.com/devcontainers-contrib/features`.
 To create a feature from a feature definition use:
 
 ```bash
-poetry run devcontainer-contrib features generate "feature_definitions/<feature_name>/feature-definition.json" "." --output-type=feature_dir
+poetry run devcontainer-contrib features generate "feature_definitions/<feature_name>/feature-definition.json" "."
 ```
 
 ## Test
 
-Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/vscode/devcontainers/base:debian-11`.
+Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/vscode/devcontainers/base:debian`.
 
 To test an individual feature use:
 
 ```bash
-npx -y -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/vscode/devcontainers/base:debian-11"
+npx -y -p @devcontainers/cli@latest devcontainer features test -f <feature_name> -i "mcr.microsoft.com/vscode/devcontainers/base:debian"
 ```

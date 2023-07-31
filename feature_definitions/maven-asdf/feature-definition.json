@@ -1,6 +1,6 @@
 {
   "id": "maven-asdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Maven (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/maven-asdf",
   "description": "Maven's primary goal is to allow a developer to comprehend the complete state of a development effort in the shortest period of time.",
@@ -12,10 +12,10 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package"],
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package:1"],
   "dependencies": [
     {
-      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package",
+      "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1",
       "options": {
         "plugin": "maven",
         "version": "$options.version"
@@ -23,5 +23,12 @@
     }
   ],
   "install_command": "echo 'Done!'",
-  "test_command": "whereis mvn"
+  "test_scenarios": [
+    {
+      "name": "test_defaults",
+      "image": "mcr.microsoft.com/devcontainers/base:debian",
+      "test_commands": ["whereis mvn"],
+      "options": {}
+    }
+  ]
 }
