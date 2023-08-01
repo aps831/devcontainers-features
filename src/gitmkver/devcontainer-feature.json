@@ -1,6 +1,6 @@
 {
   "id": "gitmkver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "git-mkver (via Github Releases)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/gitmkver",
   "description": "Automatic Semantic Versioning for git based software development.",

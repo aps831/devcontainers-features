@@ -10,7 +10,9 @@ rm -rf /var/lib/apt/lists/*
 architecture="$(uname -m)"
 case ${architecture} in
 x86_64)
-  architecture="amd64"
+  # The naming convention on https://github.com/idc101/git-mkver/releases has changed
+  # Commenting out for the time being in case the change is reverted
+  # architecture="amd64"
   ;;
 *)
   echo "(!) Architecture ${architecture} unsupported"
