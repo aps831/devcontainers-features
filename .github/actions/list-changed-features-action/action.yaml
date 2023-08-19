@@ -29,9 +29,9 @@ runs:
         list-files: json
         filters: |
           src:
-            - src/**/*.sh
+            - src/**
           test:
-            - test/**/*.sh
+            - test/**
 
     - id: feature-finder
       shell: bash
