@@ -15,7 +15,7 @@ A syntax-highlighting pager for git, diff, and grep output.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the version of Delta to install. | string | 0.12.1 |
+| version | Select the version of Delta to install. | string | latest |
 
 
 
