@@ -27,7 +27,7 @@
     {
       "name": "test_defaults",
       "image": "mcr.microsoft.com/devcontainers/base:debian",
-      "test_commands": ["trunk --version"],
+      "test_commands": ["git init && trunk --version"],
       "options": {}
     }
   ]

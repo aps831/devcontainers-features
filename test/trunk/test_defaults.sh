@@ -6,6 +6,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "trunk --version" trunk --version
+check "git init && trunk --version" git init && trunk --version
 
 reportResults
