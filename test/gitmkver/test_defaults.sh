@@ -10,7 +10,7 @@ git config --global user.email "a@name.com"
 git config --global user.name "A Name"
 
 TMP_DIR=$(mktemp -d)
-cd ${TMP_DIR}
+cd "${TMP_DIR}"
 git init
 touch .gitignore
 git add .gitignore
