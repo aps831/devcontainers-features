@@ -17,7 +17,7 @@ jobs:
       all-features: ${{ steps.list-features.outputs.all_features }}
       changed-features: ${{ steps.list-features.outputs.changed_features }}
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # pin@v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # pin@v3
       - run: |
           echo ${{ github.event_name }}
 
@@ -89,7 +89,7 @@ jobs:
       matrix:
         features: ${{ fromJson(needs.prepare-matrix.outputs.features_to_test) }}
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # pin@v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # pin@v3
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
@@ -115,7 +115,7 @@ jobs:
   test-global:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # pin@v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # pin@v3
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
