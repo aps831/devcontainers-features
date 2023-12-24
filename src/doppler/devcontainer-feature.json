@@ -1,0 +1,15 @@
+{
+  "id": "doppler",
+  "version": "1.0.0",
+  "name": "Doppler (via Github Releases)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/doppler",
+  "description": "Doppler is the multi-cloud SecretOps Platform developers and security teams trust to provide secrets management at enterprise scale.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Select the version of Doppler to install."
+    }
+  }
+}
