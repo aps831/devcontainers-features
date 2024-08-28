@@ -32,6 +32,7 @@ lint:
       paths:
         - src/commitizen/*
         - src/commitizen-tools/*
+        - src/cosign-asdf/*
         - src/golang-asdf/*
         - src/java-asdf/*
         - src/maven-asdf/*
@@ -45,6 +46,7 @@ lint:
         - src/trunk/*
         - test/commitizen/*
         - test/commitizen-tools/*
+        - test/cosign-asdf/*
         - test/golang-asdf/*
         - test/java-asdf/*
         - test/maven-asdf/*
