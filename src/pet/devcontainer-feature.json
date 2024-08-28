@@ -1,0 +1,15 @@
+{
+  "id": "pet",
+  "version": "1.0.0",
+  "name": "Pet (via Github Releases)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/pet",
+  "description": "Pet is a simple command-line snippet manager, written in Go.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "0.9.0",
+      "description": "Select the version of Pet to install."
+    }
+  }
+}
