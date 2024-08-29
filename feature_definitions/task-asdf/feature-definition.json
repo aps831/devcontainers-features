@@ -1,6 +1,6 @@
 {
   "id": "task-asdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Task (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/task-asdf",
   "description": "Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.",
@@ -22,7 +22,7 @@
       }
     }
   ],
-  "install_command": "echo 'Done!'",
+  "install_command": "curl https://raw.githubusercontent.com/go-task/task/main/completion/bash/task.bash > /etc/bash_completion.d/task.bash",
   "test_scenarios": [
     {
       "name": "test_defaults",

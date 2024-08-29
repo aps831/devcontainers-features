@@ -4,4 +4,4 @@
 
 set -e
 
-echo 'Done!'
+curl https://raw.githubusercontent.com/go-task/task/main/completion/bash/task.bash > /etc/bash_completion.d/task.bash
