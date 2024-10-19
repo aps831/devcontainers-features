@@ -36,7 +36,8 @@ ensure_featmake
 PS1='\s-\v\$' source /etc/profile
 
 # installing ghcr.io/aps831/devcontainers-features/python-asdf:1
-featmake "ghcr.io/aps831/devcontainers-features/python-asdf:1" -VERSION "latest"
+# Using "latest" is picking up 3.13.0t which fails the build of cryptography
+featmake "ghcr.io/aps831/devcontainers-features/python-asdf:1" -VERSION "3.13.0"
 
 # refresh PATH
 PS1='\s-\v\$' source /etc/profile
