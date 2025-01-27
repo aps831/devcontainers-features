@@ -1,0 +1,12 @@
+{
+  "test_defaults": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "asdf-plugin-manager-asdf": {
+        "plugin": "maven",
+        "ref": "e325ff9",
+        "pluginRepo": "https://github.com/proemion/asdf-maven.git"
+      }
+    }
+  }
+}
