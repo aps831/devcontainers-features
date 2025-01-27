@@ -1,20 +1,20 @@
 {
     "id": "cosign-asdf",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Cosign (via asdf)",
     "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/cosign-asdf",
     "description": "Cosign is a command line utility that can sign and verify software artifact, such as container images and blobs.",
     "options": {
         "version": {
-            "default": "latest",
+            "default": "2.4.1",
             "description": "Select the version of Cosign to install.",
             "proposals": [
-                "latest"
+                "2.4.1"
             ],
             "type": "string"
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/asdf-package:1"
+        "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1"
     ]
 }
