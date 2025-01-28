@@ -4,14 +4,6 @@
 
 This repository is based on `https://github.com/devcontainers-extra/features`.  It defines features for a variety of tools.
 
-## Create
-
-To create a feature from a feature definition use:
-
-```bash
-poetry run devcontainer-contrib features generate "feature_definitions/<feature_name>/feature-definition.json" "."
-```
-
 ## Test
 
 Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/vscode/devcontainers/base:debian`.
