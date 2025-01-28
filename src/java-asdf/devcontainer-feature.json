@@ -1,20 +1,16 @@
 {
-    "id": "java-asdf",
-    "version": "1.0.2",
-    "name": "Java (via asdf)",
-    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/java-asdf",
-    "description": "Java is a widely used object-oriented programming language and software platform that runs on billions of devices.",
-    "options": {
-        "version": {
-            "default": "adoptopenjdk-17.0.0+35",
-            "description": "Select the version of Java to install.",
-            "proposals": [
-                "adoptopenjdk-17.0.0+35"
-            ],
-            "type": "string"
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/asdf-package:1"
-    ]
+  "id": "java-asdf",
+  "version": "1.0.3",
+  "name": "Java (via asdf)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/java-asdf",
+  "description": "Java is a widely used object-oriented programming language and software platform that runs on billions of devices.",
+  "options": {
+    "version": {
+      "default": "adoptopenjdk-17.0.0+35",
+      "description": "Select the version of Java to install.",
+      "proposals": ["adoptopenjdk-17.0.0+35"],
+      "type": "string"
+    }
+  },
+  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1"]
 }
