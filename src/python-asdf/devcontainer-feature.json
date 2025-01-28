@@ -1,26 +1,16 @@
 {
-    "id": "python-asdf",
-    "version": "1.0.3",
-    "name": "Python (via asdf)",
-    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/python-asdf",
-    "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
-    "options": {
-        "version": {
-            "default": "3.13.0",
-            "description": "Select the version of Python to install.",
-            "proposals": [
-              "3.13.0",
-              "3.12.7",
-              "3.11.10",
-              "3.10.15",
-              "3.12.6",
-              "3.9.20",
-              "3.8.20"
-            ],
-            "type": "string"
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/asdf-package:1"
-    ]
+  "id": "python-asdf",
+  "version": "1.0.4",
+  "name": "Python (via asdf)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/python-asdf",
+  "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+  "options": {
+    "version": {
+      "default": "3.13.0",
+      "description": "Select the version of Python to install.",
+      "proposals": ["3.13.0", "3.12.7", "3.11.10", "3.10.15", "3.12.6", "3.9.20", "3.8.20"],
+      "type": "string"
+    }
+  },
+  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1"]
 }

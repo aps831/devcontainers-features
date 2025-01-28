@@ -1,43 +1,29 @@
 #!/usr/bin/env bash
+
+PLUGIN="python"
+PLUGINREPO="https://github.com/danhper/asdf-python.git"
+PLUGINREF="a3a0185"
+
 set -e
 
-ensure_packages() {
-  if ! dpkg -s "$@" >/dev/null 2>&1; then
-    if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
-      echo "Running apt-get update..."
-      apt-get update -y
-    fi
-    apt-get -y install --no-install-recommends "$@"
-  fi
-}
+source ./library_scripts.sh
 
+ensure_nanolayer nanolayer_location "v0.4.45"
 
-ensure_featmake () {
-    if ! type featmake > /dev/null 2>&1; then
-        temp_dir=/tmp/featmake-download
-        mkdir -p $temp_dir
+$nanolayer_location \
+  install \
+  devcontainer-feature \
+  "ghcr.io/devcontainers-extra/features/apt-get-packages:1.0.6" \
+  --option packages="curl,make,build-essential,libssl-dev,zlib1g-dev,libbz2-dev,libreadline-dev,libsqlite3-dev,llvm,libncursesw5-dev,xz-utils,tk-dev,libxml2-dev,libxmlsec1-dev,libffi-dev,liblzma-dev"
 
-        curl -sSL -o $temp_dir/featmake https://github.com/devcontainers-contrib/cli/releases/download/v0.0.19/featmake
-        curl -sSL -o $temp_dir/checksums.txt https://github.com/devcontainers-contrib/cli/releases/download/v0.0.19/checksums.txt
+$nanolayer_location \
+  install \
+  devcontainer-feature \
+  "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1.0.1" \
+  --option plugin="$PLUGIN" --option pluginRepo="$PLUGINREPO" --option ref="$PLUGINREF"
 
-        (cd $temp_dir ; sha256sum --check --strict $temp_dir/checksums.txt)
-
-        chmod a+x $temp_dir/featmake
-        mv -f $temp_dir/featmake /usr/local/bin/featmake
-
-        rm -rf $temp_dir
-    fi
-}
-
-# Python build dependencies
-ensure_packages curl make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
-
-ensure_featmake
-
-# refresh PATH
-PS1='\s-\v\$' source /etc/profile
-
-# installing ghcr.io/devcontainers-contrib/features/asdf-package:1
-featmake "ghcr.io/devcontainers-contrib/features/asdf-package:1" -PLUGIN "python" -VERSION "$VERSION"
-
-
+su - "$_REMOTE_USER" <<EOF
+  source /home/vscode/.asdf/asdf.sh
+  asdf install "$PLUGIN" "$VERSION"
+  asdf global "$PLUGIN" "$VERSION"
+EOF
