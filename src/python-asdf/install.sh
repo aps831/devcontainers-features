@@ -19,7 +19,7 @@ ${nanolayer_location} \
 ${nanolayer_location} \
   install \
   devcontainer-feature \
-  "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1.0.1" \
+  "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1.0.2" \
   --option plugin="${PLUGIN}" --option pluginRepo="${PLUGINREPO}" --option ref="${PLUGINREF}"
 
 su - "${_REMOTE_USER}" <<EOF
