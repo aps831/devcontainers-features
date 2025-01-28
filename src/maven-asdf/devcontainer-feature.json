@@ -1,20 +1,19 @@
 {
-    "id": "maven-asdf",
-    "version": "1.0.2",
-    "name": "Maven (via asdf)",
-    "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/maven-asdf",
-    "description": "Maven's primary goal is to allow a developer to comprehend the complete state of a development effort in the shortest period of time.",
-    "options": {
-        "version": {
-            "default": "3.8.3",
-            "description": "Select the version of Maven to install.",
-            "proposals": [
-                "3.8.3"
-            ],
-            "type": "string"
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/asdf-package:1"
-    ]
+  "id": "maven-asdf",
+  "version": "1.0.3",
+  "name": "Maven (via asdf)",
+  "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/maven-asdf",
+  "description": "Maven's primary goal is to allow a developer to comprehend the complete state of a development effort in the shortest period of time.",
+  "options": {
+    "version": {
+      "default": "3.8.3",
+      "description": "Select the version of Maven to install.",
+      "proposals": ["3.8.3"],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1",
+    "ghcr.io/aps831/devcontainers-features/java-asdf:1"
+  ]
 }
