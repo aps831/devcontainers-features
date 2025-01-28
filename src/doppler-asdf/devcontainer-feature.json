@@ -1,6 +1,6 @@
 {
   "id": "doppler-asdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Doppler (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/doppler-asdf",
   "description": "Doppler is the multi-cloud SecretOps Platform developers and security teams trust to provide secrets management at enterprise scale.",
@@ -12,5 +12,5 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/asdf-package:1"]
+  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1"]
 }
