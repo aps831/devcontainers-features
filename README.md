@@ -2,7 +2,7 @@
 
 ## Background
 
-This repository is based on `https://github.com/devcontainers-contrib/features`.  It defines features for a variety of tools.
+This repository is based on `https://github.com/devcontainers-extra/features`.  It defines features for a variety of tools.
 
 ## Create
 
