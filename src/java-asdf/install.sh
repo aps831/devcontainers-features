@@ -21,3 +21,5 @@ su - "${_REMOTE_USER}" <<EOF
   asdf install "${PLUGIN}" "${VERSION}"
   asdf global "${PLUGIN}" "${VERSION}"
 EOF
+
+echo "[ -f ${HOME}/.asdf/plugins/java/set-java-home.bash ] && . ${HOME}/.asdf/plugins/java/set-java-home.bash" >>/etc/bash.bashrc
