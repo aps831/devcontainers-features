@@ -13,7 +13,7 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 ${nanolayer_location} \
   install \
   devcontainer-feature \
-  "ghcr.io/aps831/devcontainers-features/java-asdf:1.0.3"
+  "ghcr.io/aps831/devcontainers-features/java-asdf:1.0.4"
 
 ${nanolayer_location} \
   install \
