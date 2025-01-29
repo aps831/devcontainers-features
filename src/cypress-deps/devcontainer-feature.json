@@ -1,6 +1,6 @@
 {
   "id": "cypress-deps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Cypress Dependencies (via APT)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/cypress-deps",
   "description": "Cypress is a next generation front end testing tool built for the modern web.  Install OS dependencies",
