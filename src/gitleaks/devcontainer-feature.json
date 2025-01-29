@@ -1,6 +1,6 @@
 {
   "id": "gitleaks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Gitleaks (via Github Releases)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/gitleaks",
   "description": "Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos.",
