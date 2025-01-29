@@ -21,4 +21,4 @@ Commitizen is a tool designed for teams. Its main purpose is to define a standar
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/commitizen/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

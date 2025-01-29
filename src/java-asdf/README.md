@@ -21,4 +21,4 @@ Java is a widely used object-oriented programming language and software platform
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/java-asdf/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

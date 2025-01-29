@@ -4,6 +4,10 @@
 
 This repository is based on `https://github.com/devcontainers-extra/features`.  It defines features for a variety of tools.
 
+## Docs
+
+The Github release workflow is broken and not creating documentation.  This can be done manually be running `npx -y -p @devcontainers/cli@latest devcontainer features generate-docs -n aps831/devcontainers-features` from with the `src` directory.
+
 ## Test
 
 Before any tests, ensure that the latest base devcontainers image is pulled: `docker pull mcr.microsoft.com/vscode/devcontainers/base:debian`.

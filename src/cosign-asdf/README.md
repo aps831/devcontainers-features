@@ -1,13 +1,13 @@
 
-# Nancy (via Github Releases) (nancy)
+# Cosign (via asdf) (cosign-asdf)
 
-Nancy is a tool to check for vulnerabilities in your Golang dependencies.
+Cosign is a command line utility that can sign and verify software artifact, such as container images and blobs.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/aps831/devcontainers-features/nancy:1": {}
+    "ghcr.io/aps831/devcontainers-features/cosign-asdf:1": {}
 }
 ```
 
@@ -15,7 +15,7 @@ Nancy is a tool to check for vulnerabilities in your Golang dependencies.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the version of Nancy to install. | string | latest |
+| version | Select the version of Cosign to install. | string | 2.4.1 |
 
 
 

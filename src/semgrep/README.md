@@ -21,4 +21,4 @@ Semgrep is a fast, open-source, static analysis tool for finding bugs and enforc
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/semgrep/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

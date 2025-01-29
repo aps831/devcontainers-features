@@ -21,4 +21,4 @@ Maven's primary goal is to allow a developer to comprehend the complete state of
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aps831/devcontainers-features/blob/main/src/maven-asdf/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

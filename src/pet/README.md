@@ -1,13 +1,13 @@
 
-# Nancy (via Github Releases) (nancy)
+# Pet (via Github Releases) (pet)
 
-Nancy is a tool to check for vulnerabilities in your Golang dependencies.
+Pet is a simple command-line snippet manager, written in Go.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/aps831/devcontainers-features/nancy:1": {}
+    "ghcr.io/aps831/devcontainers-features/pet:1": {}
 }
 ```
 
@@ -15,7 +15,7 @@ Nancy is a tool to check for vulnerabilities in your Golang dependencies.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the version of Nancy to install. | string | latest |
+| version | Select the version of Pet to install. | string | 0.9.0 |
 
 
 
