@@ -2,7 +2,7 @@
 
 PLUGIN="python"
 PLUGINREPO="https://github.com/danhper/asdf-python.git"
-PLUGINREF="a3a0185"
+PLUGINREF="d4caa7d"
 
 set -e
 

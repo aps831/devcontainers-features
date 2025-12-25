@@ -1,14 +1,23 @@
 {
   "id": "python-asdf",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Python (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/python-asdf",
   "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   "options": {
     "version": {
-      "default": "3.13.0",
+      "default": "3.14.2",
       "description": "Select the version of Python to install.",
-      "proposals": ["3.13.0", "3.12.7", "3.11.10", "3.10.15", "3.12.6", "3.9.20", "3.8.20"],
+      "proposals": [
+        "3.14.2",
+        "3.13.0",
+        "3.12.7",
+        "3.11.10",
+        "3.10.15",
+        "3.12.6",
+        "3.9.20",
+        "3.8.20"
+      ],
       "type": "string"
     }
   },
