@@ -2,8 +2,8 @@
 
 PLUGIN_MANAGER="asdf-plugin-manager"
 PLUGIN_MANAGER_REPO="https://github.com/asdf-community/asdf-plugin-manager.git"
-PLUGIN_MANAGER_REF="db4a5e6"
-PLUGIN_MANAGER_VERSION="1.5.0"
+PLUGIN_MANAGER_REF="0ef4f9e"
+PLUGIN_MANAGER_VERSION="1.4.0"
 
 PLUGIN_VERSIONS_FILENAME="/home/vscode/.plugin-versions"
 
