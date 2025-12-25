@@ -1,6 +1,6 @@
 {
   "id": "golang-asdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Golang (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/golang-asdf",
   "description": "Build simple, secure, scalable systems with Go.",
