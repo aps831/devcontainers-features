@@ -16,7 +16,7 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 $nanolayer_location \
   install \
   devcontainer-feature \
-  "ghcr.io/devcontainers-extra/features/asdf-package:1.0.9" \
+  "ghcr.io/devcontainers-extra/features/asdf-package:1.0.10" \
   --option plugin="$PLUGIN_MANAGER" --option pluginRepo="$PLUGIN_MANAGER_REPO" --option ref="$PLUGIN_MANAGER_REF"
 
 touch "$PLUGIN_VERSIONS_FILENAME"
