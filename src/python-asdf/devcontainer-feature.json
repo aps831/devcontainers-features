@@ -1,6 +1,6 @@
 {
   "id": "python-asdf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "name": "Python (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/python-asdf",
   "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
@@ -21,5 +21,5 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1"]
+  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf"]
 }

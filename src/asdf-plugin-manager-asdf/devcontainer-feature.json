@@ -1,6 +1,6 @@
 {
   "id": "asdf-plugin-manager-asdf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "name": "Asdf Plugin Manager (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/asdf-plugin-manager-asdf",
   "description": "ASDF Plugin Manager allows you to pin asdf plugin info like Git URL and ref for security and integrity.",
@@ -24,5 +24,5 @@
       "description": "Select the asdf plugin repo to install"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-extra/features/asdf-package:1"]
+  "installsAfter": ["ghcr.io/devcontainers-extra/features/asdf-package"]
 }

@@ -1,6 +1,6 @@
 {
   "id": "trunk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Trunk CLI (via npm)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/trunk",
   "description": "Use Trunk for checking, testing, merging, and monitoring your code.",
@@ -12,5 +12,5 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/npm-package:1"]
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/npm-package"]
 }
