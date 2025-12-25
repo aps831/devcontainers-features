@@ -13,11 +13,6 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 ${nanolayer_location} \
   install \
   devcontainer-feature \
-  "ghcr.io/aps831/devcontainers-features/python-asdf:1.0.4"
-
-${nanolayer_location} \
-  install \
-  devcontainer-feature \
   "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf:1.0.2" \
   --option plugin="${PLUGIN}" --option pluginRepo="${PLUGINREPO}" --option ref="${PLUGINREF}"
 
