@@ -8,7 +8,7 @@ set -e
 
 source ./library_scripts.sh
 
-ensure_nanolayer nanolayer_location "v0.4.45"
+ensure_nanolayer nanolayer_location "v0.5.6"
 
 $nanolayer_location \
   install \

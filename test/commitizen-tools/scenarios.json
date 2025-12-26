@@ -1,8 +1,10 @@
 {
-    "test_defaults": {
-        "image": "mcr.microsoft.com/devcontainers/base:debian",
-        "features": {
-            "commitizen-tools": {}
-        }
+  "test_defaults": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "commitizen-tools": {
+        "version": "4.10.1"
+      }
     }
+  }
 }
