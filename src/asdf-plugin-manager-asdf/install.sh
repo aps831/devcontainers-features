@@ -13,6 +13,15 @@ source ./library_scripts.sh
 
 ensure_nanolayer nanolayer_location "v0.5.6"
 
+# asdf-package installs the older version of asdf
+# when upgraded remove 'source /home/vscode/.asdf/asdf.sh' from features
+# and add
+# containerEnv {
+#  "ASDF_DATA_DIR": "/home/vscode/.asdf"
+#  "PATH": "$ASDF_DATA_DIR/shims:$PATH"
+# }
+#
+
 $nanolayer_location \
   install \
   devcontainer-feature \
