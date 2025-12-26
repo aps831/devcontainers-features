@@ -11,5 +11,6 @@
       "default": "0.9.0",
       "description": "Select the version of Pet to install."
     }
-  }
+  },
+  "installsAfter": ["ghcr.io/devcontainers-extra/features/gh-release"]
 }

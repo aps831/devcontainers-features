@@ -11,5 +11,6 @@
       "default": "latest",
       "description": "Select the version of git-mkver to install."
     }
-  }
+  },
+  "installsAfter": ["ghcr.io/devcontainers-extra/features/gh-release"]
 }

@@ -12,5 +12,8 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/npm-package"]
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/npm-package",
+    "ghcr.io/devcontainers/features/node"
+  ]
 }

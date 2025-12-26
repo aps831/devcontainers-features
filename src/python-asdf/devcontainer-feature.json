@@ -21,5 +21,8 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf"]
+  "installsAfter": [
+    "ghcr.io/devcontainers-extra/features/apt-get-packages",
+    "ghcr.io/aps831/devcontainers-features/asdf-plugin-manager-asdf"
+  ]
 }

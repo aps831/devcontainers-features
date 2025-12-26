@@ -12,5 +12,8 @@
       "type": "string"
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/pipx-package"]
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python"
+  ]
 }
