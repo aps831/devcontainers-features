@@ -1,6 +1,6 @@
 {
   "id": "cosign-asdf",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "name": "Cosign (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/cosign-asdf",
   "description": "Cosign is a command line utility that can sign and verify software artifact, such as container images and blobs.",

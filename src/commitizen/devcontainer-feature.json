@@ -1,6 +1,6 @@
 {
   "id": "commitizen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Commitizen (via pipx)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/commitizen",
   "description": "Commitizen is a tool designed for teams. Its main purpose is to define a standard way of committing rules and communicating it.",
