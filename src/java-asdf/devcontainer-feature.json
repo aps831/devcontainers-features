@@ -1,6 +1,6 @@
 {
   "id": "java-asdf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "name": "Java (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/java-asdf",
   "description": "Java is a widely used object-oriented programming language and software platform that runs on billions of devices.",

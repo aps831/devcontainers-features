@@ -1,6 +1,6 @@
 {
   "id": "trunk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Trunk CLI (via npm)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/trunk",
   "description": "Use Trunk for checking, testing, merging, and monitoring your code.",

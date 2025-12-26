@@ -1,6 +1,6 @@
 {
   "id": "poetry-asdf",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "Poetry (via asdf)",
   "documentationURL": "http://github.com/aps831/devcontainers-features/tree/master/src/poetry-asdf",
   "description": "",
